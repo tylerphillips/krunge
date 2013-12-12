@@ -1,0 +1,65 @@
+body {
+	background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+	font-family: 'EB Garamond', serif;
+}
+
+.text-muted {
+	font-family: 'Raleway', sans-serif;
+}
+
+.main {
+	// background-image: url("http://katierunge.files.wordpress.com/2013/11/img_2671.jpg");
+	// background-image: url("/images/litch-moon.jpg");
+	background-color: yellow;
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	background-size: 100%;
+}
+
+.main-icon {
+	display: inline-block;
+}
+
+.about-icon {
+	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-128.png");
+	width: 175px;
+	height: 175px;
+	background-color: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 90px;
+}
+.about-icon:hover {
+	background-color: white;
+	opacity: .4;
+}
+.photo-icon {
+	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/camera-128.png");
+	// background-image: url("https://cdn3.iconfinder.com/data/icons/iconic-1/32/camera-128.png");
+	width: 175px;
+	height: 175px;
+	background-color: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 90px;
+}
+.photo-icon:hover {
+	background-color: white;
+	opacity: .4;
+}
+.design-icon {
+	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/pen-128.png");
+	width: 175px;
+	height: 175px;
+	background-color: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 90px;
+}
+.design-icon:hover {
+	background-color: white;
+	opacity: .4;
+}
