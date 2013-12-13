@@ -24,6 +24,8 @@
 	z-index: 8020;
 }
 
+
+
 .fancybox-skin {
 	position: relative;
 	background: #f9f9f9;
@@ -255,6 +257,10 @@
 	padding: 10px;
 	background: #000;
 	background: rgba(0, 0, 0, .8);
+}
+
+.fancybox img {
+	width:400px;
 }
 
 /*Retina graphics!*/

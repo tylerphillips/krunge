@@ -1,3 +1,7 @@
+$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
 /* Wait for DOM to be ready */
 $(function () {
 	// Store original image dimensions
