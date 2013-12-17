@@ -1,12 +1,15 @@
 $primary: black;
 $alpha: .6;
 $speed: .4s;
+$kpink: #e20036;
+$kteal: #00E2AC;
 
 body{
   width: 100%;
   font-family: 'EB Garamond', serif;
   color: white; 
-  background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+  // background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+  background-color: $kteal;
 }
 
 li{
@@ -76,9 +79,9 @@ figcaption{
 }
 
 .cap-link:hover {
-	color: #D679E7;
+	color: $kpink;
 	text-decoration: none;
-	font-weight: 500;
+	
 }
 
 

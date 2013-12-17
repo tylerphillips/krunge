@@ -7,12 +7,13 @@ $kpink: #e20036;
 
 body {
 	// background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
-	background-image: url("/images/litch-moon.jpg");	
+	// background-image: url("/images/litch-moon.jpg");	
 	font-family: 'EB Garamond', serif;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 0 auto;
 	background-size: 100%;
+	background-color: $kteal;
 }
 
 .text-muted {
@@ -50,7 +51,7 @@ body {
 }
 
 .icons-main {
-	margin-left: 130px;
+	margin-left: 160px;
 	margin-right: 100px;
 }
 
@@ -62,14 +63,26 @@ body {
 	color: white;
 	margin-top: 50px;
 }
-
-.main-glyph:hover {
-	color: $kpink;
-	cursor: pointer;
+.main-glyph {
+// background-color: #e20036;
+text-align: center;
+margin-left: 12px;
+width: 250px;
+height: 250px;
+border-radius: 140px;
+margin: 0 auto;
 }
+.pink:hover {
+	color: $kpink;
+
+}
+// .main-glyph:hover {
+// 	color: $kpink;
+// 	cursor: pointer;
+// }
 .icon-full:hover {
 	color: $kpink;
-	cursor: pointer;
+	// cursor: pointer;
 }
 
 .overlay {
@@ -102,13 +115,25 @@ body {
 }
 
 .about {
-	margin-left: 75px;
+	margin-left: -130px;
+	height: 230px;
+	width: 250px;
+	margin-top: -180px;
+	padding-top: 190px;
 }
 .photography {
-	margin-left: 60px;
+	margin-left: -125px;
+	height: 230px;
+	width: 250px;
+	margin-top: -180px;
+	padding-top: 190px;
 }
 .design {
-	margin-left: 90px;
+	margin-left: -215px;
+	height: 230px;
+	width: 250px;
+	margin-top: -40px;
+	padding-top: 230px;
 }
 
 .photo-title {
