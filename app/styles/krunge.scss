@@ -1,65 +1,173 @@
+$kpurple: #451593;
+
+$background-color: #00E2AC;
+
+$kteal: #00E2AC;
+$kpink: #e20036;
+
 body {
-	background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+	// background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+	background-image: url("/images/litch-moon.jpg");	
 	font-family: 'EB Garamond', serif;
-}
-
-.text-muted {
-	font-family: 'Raleway', sans-serif;
-}
-
-.main {
-	// background-image: url("http://katierunge.files.wordpress.com/2013/11/img_2671.jpg");
-	// background-image: url("/images/litch-moon.jpg");
-	background-color: yellow;
-	width: 100%;
-	height: 700px;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 0 auto;
 	background-size: 100%;
 }
 
-.main-icon {
-	display: inline-block;
+.text-muted {
+	font-family: 'Raleway', sans-serif;
+	color: $kpurple
 }
 
-.about-icon {
-	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-128.png");
-	width: 175px;
-	height: 175px;
-	background-color: none;
+
+// .container {
+// 	background: #fff;
+// 	border: 1px solid #bbb;
+// 	border-radius: 10px;
+// }
+
+.main {
+	// background-image: url("http://katierunge.files.wordpress.com/2013/11/img_2671.jpg");
+	// background-image: url("/images/litch-moon.jpg");
+	// background-color: yellow;
+	width: 100%;
+	height: 700px;
 	background-repeat: no-repeat;
 	background-position: center;
-	border-radius: 90px;
+	margin: 0 auto;
+	background-size: 100%;
+
+	margin-right: -15px;
 }
-.about-icon:hover {
-	background-color: white;
-	opacity: .4;
+
+.quote {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 80px;
+	color: white;
 }
-.photo-icon {
-	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/camera-128.png");
-	// background-image: url("https://cdn3.iconfinder.com/data/icons/iconic-1/32/camera-128.png");
-	width: 175px;
-	height: 175px;
-	background-color: none;
-	background-repeat: no-repeat;
-	background-position: center;
-	border-radius: 90px;
+
+.icons-main {
+	margin-left: 130px;
+	margin-right: 100px;
 }
-.photo-icon:hover {
-	background-color: white;
-	opacity: .4;
+
+.main-glyph {
+	font-size: 180px;
+	text-align: center;
+	padding-left: 50px;
+	margin-right: 120px;
+	color: white;
+	margin-top: 50px;
 }
-.design-icon {
-	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/pen-128.png");
-	width: 175px;
-	height: 175px;
-	background-color: none;
-	background-repeat: no-repeat;
-	background-position: center;
-	border-radius: 90px;
+
+.main-glyph:hover {
+	color: $kpink;
+	cursor: pointer;
 }
-.design-icon:hover {
-	background-color: white;
-	opacity: .4;
+.icon-full:hover {
+	color: $kpink;
+	cursor: pointer;
 }
+
+.overlay {
+	// background-color: white;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	opacity: .5;
+
+    // purple overlay
+	background-color: #251B5A;;
+	opacity: .7;
+
+	// teal
+	background-color: #00E2AC;
+	opacity: 1;
+
+	// teal
+	background-color: $background-color;
+	opacity: 1;
+}
+
+.icon-title {
+	display: inline-block;
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	color: white;
+}
+
+.about {
+	margin-left: 75px;
+}
+.photography {
+	margin-left: 60px;
+}
+.design {
+	margin-left: 90px;
+}
+
+.photo-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	color: $kpurple;
+
+}
+.small-glyph {
+	font-size: 28px;
+	text-align: center;
+	padding-left: 5px;
+	margin-right: 10px;
+	color: $kpurple;
+}
+
+
+// .main-icon {
+// 	display: inline-block;
+// }
+
+// .about-icon {
+// 	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-128.png");
+// 	width: 175px;
+// 	height: 175px;
+// 	background-color: none;
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	border-radius: 90px;
+// }
+// .about-icon:hover {
+// 	background-color: white;
+// 	opacity: .4;
+// }
+// .photo-icon {
+// 	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/camera-128.png");
+// 	// background-image: url("https://cdn3.iconfinder.com/data/icons/iconic-1/32/camera-128.png");
+// 	width: 175px;
+// 	height: 175px;
+// 	background-color: none;
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	border-radius: 90px;
+// }
+// .photo-icon:hover {
+// 	background-color: white;
+// 	opacity: .4;
+// }
+// .design-icon {
+// 	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/pen-128.png");
+// 	width: 175px;
+// 	height: 175px;
+// 	background-color: none;
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	border-radius: 90px;
+// }
+// .design-icon:hover {
+// 	background-color: white;
+// 	opacity: .4;
+// }

@@ -1,6 +1,69 @@
 $(document).ready(function() {
 		$(".fancybox").fancybox();
-	});
+	
+
+	//Disable title helper
+$(".fancybox").fancybox({
+    helpers:  {
+        title:  null
+    }
+});
+
+//Disable overlay helper
+$(".fancybox").fancybox({
+    helpers:  {
+        overlay : null
+    }
+});
+
+//Change title position; show overlay after content has loaded
+$(".fancybox").fancybox({
+    helpers:  {
+        title : {
+            type : 'inside'
+        },
+        overlay : {
+            showEarly : false
+        }
+    }
+});
+
+//Enable thumbnail helper and set custom options
+$(".fancybox").fancybox({
+    helpers:  {
+        thumbs : {
+            width: 50,
+            height: 50
+        }
+    }
+});
+
+// $("#single_2").fancybox({
+//     	openEffect	: 'elastic',
+//     	closeEffect	: 'elastic',
+
+//     	helpers : {
+//     		title : {
+//     			type : 'inside'
+//     		}
+//     	}
+//     });
+
+// width: 1080px;
+// height: 805px;
+
+       var $img = $('img'); // finds all image tags
+
+$img.click(function resize(e) { // bind click event to all images
+  $img.css({ // resize the image
+     height: '1080px',
+     width: '805px'
+  });
+});
+    });
+
+
+
 
 /* Wait for DOM to be ready */
 $(function () {

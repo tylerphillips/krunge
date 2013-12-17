@@ -1,22 +1,40 @@
-<html>
-<head>
-  <title>Photography by Katie Runge</title>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>krunge</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/krunge.css">
+        <link rel="stylesheet" href="styles/krunge-photo.css">
+        <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <!-- endbuild -->
+        <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-  <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>krunge</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/krunge.css">
-    <link rel="stylesheet" href="styles/krunge-photo.css">
-    <!-- endbuild -->
-    <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Raleway:400,300,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
+    </head>
+    <body>
   <div class="container">
+
+     <div class="container"> 
+                <h3 class="text-muted">Katie Runge</h3>
+            <div class="header">
+                <div class="nav nav-pills">
+                    <span class="glyphicon glyphicon-pencil small-glyph pull-right"></span>
+                    <span class="glyphicon glyphicon-camera small-glyph pull-right"></span>
+                    <span class="glyphicon glyphicon-user small-glyph pull-right"></span>
+                </div>
+            </div>
+
+    <div class="photo-title">Photography</div>
 
     <ul id="results">
 
@@ -24,7 +42,7 @@
         <figure>
           <img src="/images/ferris-wheel.jpg" />
           <figcaption>
-            <a href="http://katierunge.files.wordpress.com/2013/11/img_2671.jpg" class="cap-link">Chicago Ferris Wheel</a>
+            <a class="fancybox cap-link" rel="group" href="/images/ferris-wheel.jpg" title="Chicago Ferris Wheel">Chicago Ferris Wheel</a>
             <div class="summary">
               Ferris Wheel at the Navy Pier in Chicago
             </div>
@@ -36,19 +54,20 @@
         <figure>
           <img src="/images/bean.jpg" />
           <figcaption>
-            <a href="http://katierunge.files.wordpress.com/2013/09/img_2582.jpg" class="cap-link">Chicago: The Bean</a>
+            <a class="fancybox cap-link" rel="group" href="/images/bean.jpg" title="Chicago: The Bean">Chicago: The Bean</a>
             <div class="summary">
               This is a photograph I took while I was in Chicago.
             </div>
           </figcaption>
         </figure>
       </li>
-
+<!-- 
+<a class="fancybox" rel="group" href="/images/beach.jpg" title="Punta Cana, Dominican Republic"><img src="/images/beach.jpg"  data-caption="I just got back from the most amazing vacation of my life in Punta Cana, Dominican Republic. I was able to take some great pictures. This is one of the first pictures that I took while on vacation. The picture doesn’t do this beach justice because it is impossible to capture the beauty of this place entirely." /> -->
       <li>
         <figure>
-          <img src="/images/beach.jpg" />
+          <img src="/images/beach.jpg" class="punta-cana" />
           <figcaption>
-            <a href="http://katierunge.files.wordpress.com/2013/06/dsc_1288.jpg?w=487" class="cap-link">Punta Cana, Dominican Republic</a>
+           <a class="fancybox cap-link" rel="group" href="/images/beach.jpg" title="Punta Cana, Dominican Republic">Punta Cana, D.R.</a>
             <div class="summary">
               I just got back from the most amazing vacation of my life in Punta Cana, Dominican Republic. I was able to take some great pictures. This is one of the first pictures that I took while on vacation. The picture doesn’t do this beach justice because it is impossible to capture the beauty of this place entirely. 
             </div>
@@ -56,11 +75,12 @@
         </figure>
       </li>
 
+
       <li>
         <figure>
           <img src="/images/chicken-pot-pie.jpg" />
           <figcaption>
-            <a href="http://katierunge.files.wordpress.com/2013/03/dsc_1015_2.jpg" class="cap-link">Food Photography: Chicken Pot Pie</a>
+            <a class="fancybox cap-link" rel="group" href="/images/chicken-pot-pie.jpg" title="Chicken Pot Pie">Chicken Pot Pie</a>
             <div class="summary">
               This is a photograph that I took for Yoder’s Dutch Market. It is chicken pot pie. I really like the angle that I used to take this photograph because you can really see the inside of the pot pie. I also used selective focus to focus in on the chicken pot pie and to make everything else in the background out of focus.
             </div>
@@ -70,9 +90,9 @@
 
       <li>
         <figure>
-          <img src="/images/sticky-buns.jpg" />
+          <img src="/images/sticky-buns.jpg" class="image" />
           <figcaption>
-            <a href="http://katierunge.files.wordpress.com/2013/03/dsc_1103_2.jpg" class="cap-link">Food Photography: Sticky Buns</a>
+            <a href="http://katierunge.files.wordpress.com/2013/03/dsc_1103_2.jpg" class="cap-link">Sticky Buns</a>
             <div class="summary">
               The photograph below is a picture I took for Yoder’s Dutch Market. It is one of their many delicious sweet breads they make on a daily basis. This photograph really captures a lot of detail and just by looking at this photograph, you can tell that it is delicious.
             </div>
@@ -82,7 +102,53 @@
     </ul>
 
   </div>
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
-     <script src="scripts/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+        <!-- endbuild -->
+        <!-- Add fancyBox -->
+    <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
 </body>
 </html>
