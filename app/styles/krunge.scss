@@ -20,15 +20,30 @@ body {
 	background-position: center;
 	margin: 0 auto;
 	background-size: 100%;
-	background-color: $scheme-lg;
+	background-color: $scheme-orange;
 }
 
 .text-muted {
 	font-family: 'Raleway', sans-serif;
-	color: $kpurple
+	color: $scheme-gray;
+	font-size: 40px;
 }
 
+.header {
+	background: $scheme-orange;
+	width: 100%;
+	margin-bottom: 0px;
+padding-bottom: 20px;
 
+}
+
+.header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+	padding: 15px;
+	width: 100%;
+}
 // .container {
 // 	background: #fff;
 // 	border: 1px solid #bbb;
@@ -55,6 +70,7 @@ body {
 	text-align: center;
 	padding: 80px;
 	color: $scheme-dg;
+	background: $scheme-lg;
 }
 
 .icons-main {
@@ -260,6 +276,10 @@ body {
 	-ms-transition: left .4s ease-in-out;
 	-o-transition: left .4s ease-in-out;
 	transition: left .4s ease-in-out;
+}
+
+.design-container {
+	max-height: 1280px;
 }
 // .main-icon {
 // 	display: inline-block;
