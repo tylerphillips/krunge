@@ -5,6 +5,13 @@ $background-color: #00E2AC;
 $kteal: #00E2AC;
 $kpink: #e20036;
 
+$scheme-orange: #e2614c;
+$scheme-lg: #abd6ba;
+$scheme-dg: #748d7d;
+$scheme-gray: #f2f2f2;
+$scheme-dark-gray: #a49d9d;
+
+
 body {
 	// background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
 	// background-image: url("/images/litch-moon.jpg");	
@@ -13,7 +20,7 @@ body {
 	background-position: center;
 	margin: 0 auto;
 	background-size: 100%;
-	background-color: $kteal;
+	background-color: $scheme-lg;
 }
 
 .text-muted {
@@ -47,64 +54,86 @@ body {
 	font-size: 2.5rem;
 	text-align: center;
 	padding: 80px;
-	color: white;
+	color: $scheme-dg;
 }
 
 .icons-main {
-	margin-left: 160px;
-	margin-right: 100px;
+	// margin-left: 160px;
+	// margin-right: 100px;
+	// background: $scheme-dg;
+	// padding: 60px;
+	// margin: 0 auto;
+	// text-align: center;
+
+	background: #748d7d;
+	// padding-top: 60px;
+	// padding-bottom: 60px;
+	padding: 60px;
+	margin: 0 auto;
+	text-align: center;
+	// height: 50%;
+	padding-bottom: 100px;
+
 }
 
 .main-glyph {
-	font-size: 180px;
+	font-size: 170px;
 	text-align: center;
-	padding-left: 50px;
-	margin-right: 120px;
-	color: white;
-	margin-top: 50px;
+	padding-left: 0px;
+	// margin-right: 120px;
+	color: $scheme-gray;
+	// margin-top: 50px;
 }
 .main-glyph {
 // background-color: #e20036;
-text-align: center;
-margin-left: 12px;
-width: 250px;
-height: 250px;
-border-radius: 140px;
-margin: 0 auto;
+	text-align: center;
+	// margin-left: 12px;
+	border-radius: 140px;
+	margin: 0 auto;
+	margin-top: 30px;
+		width: 250px;
+	height: 250px;
+	margin-left: -10px;
+	
 }
 .pink:hover {
-	color: $kpink;
+	color: $scheme-lg;
+	border-color: $scheme-lg;
 
 }
 // .main-glyph:hover {
 // 	color: $kpink;
 // 	cursor: pointer;
 // }
+// .icon-full {
+// 	position: relative;
+// }
+
 .icon-full:hover {
 	color: $kpink;
 	// cursor: pointer;
 }
 
-.overlay {
-	// background-color: white;
-	background-color: black;
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-	opacity: .5;
+// .overlay {
+// 	// background-color: white;
+// 	background-color: black;
+// 	width: 100%;
+// 	height: 100%;
+// 	margin: 0 auto;
+// 	opacity: .5;
 
-    // purple overlay
-	background-color: #251B5A;;
-	opacity: .7;
+//     // purple overlay
+// 	background-color: #251B5A;;
+// 	opacity: .7;
 
-	// teal
-	background-color: #00E2AC;
-	opacity: 1;
+// 	// teal
+// 	background-color: #00E2AC;
+// 	opacity: 1;
 
-	// teal
-	background-color: $background-color;
-	opacity: 1;
-}
+// 	// teal
+// 	background-color: $background-color;
+// 	opacity: 1;
+// }
 
 .icon-title {
 	display: inline-block;
@@ -112,37 +141,107 @@ margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
 	font-size: 2.5rem;
 	color: white;
+	margin-left: 100px;
 }
 
 .about {
-	margin-left: -130px;
-	height: 230px;
+	// margin-left: -130px;
+	height: 250px;
 	width: 250px;
-	margin-top: -180px;
-	padding-top: 190px;
+	font-size: 24px;
+	// margin-top: -180px;
+	// padding-top: 190px;
+
+	border: solid 10px #f2f2f2;
+	border-radius: 130px;
+	font-size: 24px;
+
+	position: relative;
+
+	margin-left: 0px;
+
 }
+.about2 {
+	border-radius: 130px;
+	font-size: 40px;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+// .photography {
+// 	margin-left: -125px;
+// 	height: 230px;
+// 	width: 250px;
+// 	margin-top: -180px;
+// 	padding-top: 190px;
+// }
+
+//photography with circle
 .photography {
-	margin-left: -125px;
-	height: 230px;
+	// margin-left: -125px;
+	height: 250px;
 	width: 250px;
-	margin-top: -180px;
-	padding-top: 190px;
+	// margin-top: -200px;
+	// padding-top: 183px;
+	border: solid 10px #f2f2f2;
+	border-radius: 130px;
+	font-size: 24px;
+
+	position: relative;
+}
+.photography2 {
+	border-radius: 130px;
+	font-size: 40px;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	text-align: center;
 }
 .design {
-	margin-left: -215px;
-	height: 230px;
+	// margin-left: -215px;
+	// height: 230px;
+	// width: 250px;
+	// margin-top: -40px;
+	// padding-top: 230px;
+
+
+	// margin-left: -185px;
+	height: 250px;
 	width: 250px;
-	margin-top: -40px;
-	padding-top: 230px;
+	// margin-top: -20px;
+	// padding-top: 183px;
+	border: solid 10px #f2f2f2;
+	border-radius: 130px;
+	font-size: 24px;
+
+	position: relative;
 }
+.design2 {
+	border-radius: 130px;
+	font-size: 40px;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+// .glyphicon-pencil {
+// 	margin-left: 10px;
+// }
 
 .photo-title {
 	font-family: 'Raleway', sans-serif;
 	font-size: 2.5rem;
 	text-align: center;
 	color: $kpurple;
-
+	margin: 0 auto;
 }
+
+.photo-subtitle {
+	text-align: center;
+	margin: 0 auto;
+}
+
 .small-glyph {
 	font-size: 28px;
 	text-align: center;
@@ -151,7 +250,17 @@ margin: 0 auto;
 	color: $kpurple;
 }
 
-
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	-webkit-transition: left .4s ease-in-out;
+	-moz-transition: left .4s ease-in-out;
+	-ms-transition: left .4s ease-in-out;
+	-o-transition: left .4s ease-in-out;
+	transition: left .4s ease-in-out;
+}
 // .main-icon {
 // 	display: inline-block;
 // }

@@ -25,7 +25,6 @@ li{
   position: relative;
   overflow: hidden;
 
-  
   &:hover{
     figcaption{
       top: 0;
@@ -89,6 +88,10 @@ figcaption{
 li {
 	width: 330px; //3 on row
 	height: 245px;
+	// margin: 10px auto;
+	margin: 0px auto;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 figure img {
 	width: 150%;
@@ -97,15 +100,23 @@ figure img {
 	margin-left: -50px;
 }
 .summary {
-	width: 95%;
+	// width: 95%;
+	// overflow: scroll;
+	// margin-top: 0px;
+	// height: 85%;
+
+	width: 100%;
 	overflow: scroll;
 	margin-top: 0px;
 	height: 85%;
+	margin-left: -10px;
 }
 .cap-link {
 	font-size: 24px;
 	position: relative;
 	top: -6px;
+
+	left: -10px;
 }
 
 figure .punta-cana {
@@ -131,4 +142,130 @@ figure .palmetto-boards {
 	margin: 0 auto;
 	margin-top: -60px;
 	margin-left: -90px;
+}
+
+figure .yoders {
+	// width: 100%;
+	// margin: 0 auto;
+	// margin-top: -10px;
+	// margin-left: 0px;
+
+	//zoomed
+	width: 140%;
+	margin: 0 auto;
+	margin-top: -110px;
+	margin-left: -110px;
+}
+
+figure .luckee {
+	width: 150%;
+	margin: 0 auto;
+	margin-top: -27px;
+	margin-left: -70px;
+}
+
+figure .c-c-c {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -2px;
+	margin-left: 0px;
+}
+
+.ccc-title {
+	font-size: 23px;
+}
+
+figure .fbc{
+	width: 130%;
+	margin: 0 auto;
+	margin-top: -34px;
+	margin-left: -50px;
+}
+
+figure .alive{
+	width: 137%;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: -68px;
+}
+
+figure .bowtique{
+	// width: 130%;
+	// margin: 0 auto;
+	// margin-top: -40px;
+	// margin-left: -80px;
+
+	width: 140%;
+	margin: 0 auto;
+	margin-top: -60px;
+	margin-left: -100px;
+}
+
+figure .variable-mailer-front{
+	width: 150%;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+figure .variable-mailer-back{
+	width: 150%;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.summer-kick-off-cook-out-title {
+	font-size: 21px;
+}
+
+figure .summer-kick-off-cook-out {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+.hammond-school-title {
+	font-size: 23px;
+}
+
+figure .hammond-school {
+	width: 160%;
+	margin: 0 auto;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+figure .hammond-display {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+figure .yoder-bro-inside {
+	width: 110%;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
+.yoder-bro-inside-title{
+	font-size: 23px;
+}
+
+figure .christmas-card {
+	width: 120%;
+	margin: 0 auto;
+	margin-top: -30px;
+	margin-left: -30px;
+}
+
+.christmas-card-title {
+	font-size: 24px;
+}
+
+.cha-aero-sum {
+	height: 65%;
 }
