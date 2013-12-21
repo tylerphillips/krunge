@@ -4,12 +4,47 @@ $speed: .4s;
 $kpink: #e20036;
 $kteal: #00E2AC;
 
+$wblack: #37373f;
+$worange: #f3773f;
+$wgreen: #6bbe52;
+$wblue: #79c0d0;
+$wred: #db5951;
+$wpink: #c21e65;
+$wwhite: #f5f7f7;
+$wgray: #95969a;
+
+$wtan: rgb(236, 236, 229);
+
+$scheme-orange: #e2614c;
+$scheme-lg: #abd6ba;
+$scheme-dg: #748d7d;
+$scheme-gray: #f2f2f2;
+$scheme-dark-gray: #a49d9d;
+
+$hov-red: #FF9384;
+$blk-gry: #2E2E2E;
+
+$gpo-a: #5dfaa8;
+$gpo-b: #a85dfa;
+$gpo-c: #faa85d;
+
+$abc: #D5D0E4;
+
 body{
   width: 100%;
   font-family: 'EB Garamond', serif;
   color: white; 
   // background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
-  background-color: $kteal;
+  // background-color: $scheme-lg;
+  // background-color: $scheme-lg;
+  // background-color: $scheme-dg;
+  background-color: $blk-gry;
+  // background-color: $abc;
+}
+
+.container {
+	max-width: 1210px;
+	background-color: $wwhite;
 }
 
 li{
@@ -24,6 +59,8 @@ li{
   background: $primary;
   position: relative;
   overflow: hidden;
+
+  border-radius: 20px;
 
   &:hover{
     figcaption{
@@ -88,8 +125,10 @@ figcaption{
 li {
 	width: 330px; //3 on row
 	height: 245px;
+	// width: 500px;
+	// height: 385px;
 	// margin: 10px auto;
-	margin: 0px auto;
+	// margin: 0px auto;
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
@@ -268,4 +307,8 @@ figure .christmas-card {
 
 .cha-aero-sum {
 	height: 65%;
+}
+
+.dessert-title {
+	font-size: 22px;
 }
