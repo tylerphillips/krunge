@@ -77,8 +77,8 @@ $(function () {
       .hide()
       .closest('.photoset-item')
       .css({
-        "background-image": "url("+img.src+")";
-        "background-position" : "center center"
+        "background-image": "url("+img.src+")",
+        "background-position": "center center",
       });
 	});
 

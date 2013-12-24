@@ -1,0 +1,361 @@
+$kpurple: #451593;
+
+$background-color: #00E2AC;
+
+$kteal: #00E2AC;
+$kpink: #e20036;
+
+$scheme-orange: #e2614c;
+$scheme-lg: #abd6ba;
+$scheme-dg: #748d7d;
+$scheme-gray: #f2f2f2;
+$scheme-dark-gray: #a49d9d;
+$scheme-pink: #E24C70;
+
+$wblack: #37373f;
+$worange: #f3773f;
+$wgreen: #6bbe52;
+$wblue: #79c0d0;
+$wred: #db5951;
+$wpink: #c21e65;
+$wwhite: #f5f7f7;
+$wgray: #95969a;
+
+$white-purp: #B0A4BB;
+$light-purp: #604875;
+$dark-purp: #362936;
+
+
+body {
+	// background-image: url('http://katierunge.wordpress.com/wp-content/themes/pub/forever/images/body-bg.png?m=1323725817g');
+	// background-image: url("/images/litch-moon.jpg");	
+	font-family: 'EB Garamond', serif;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	background-size: 100%;
+	background-color: $scheme-lg;
+}
+
+.text-muted {
+	font-family: 'Raleway', sans-serif;
+	color: $scheme-gray;
+	font-size: 40px;
+}
+
+.header {
+	background: $scheme-orange;
+	width: 100%;
+	margin-top: -20px;
+	padding-bottom: 0px;
+	padding-right: 45px;
+
+}
+
+.header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+	padding: 20px;
+	padding-left: 85px;
+	display: inline-block;
+}
+// .container {
+// 	background: #fff;
+// 	border: 1px solid #bbb;
+// 	border-radius: 10px;
+// }
+
+.nav {
+	// background: $scheme-orange;
+	float: right;
+	display: inline-block;
+	padding: 20px;
+	margin-top: -10px;
+}
+
+.fa-nav {
+	color: $wwhite;
+	font-size: 40px;
+	margin-right: 20px;
+	display: inline-block;
+	border: solid $wwhite;
+	padding: 8px;
+	border-radius: 20px;
+}
+
+
+.main {
+	// background-image: url("http://katierunge.files.wordpress.com/2013/11/img_2671.jpg");
+	// background-image: url("/images/litch-moon.jpg");
+	// background-color: yellow;
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+	background-size: 100%;
+
+	margin-right: -15px;
+}
+
+.quote {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 80px;
+	color: $scheme-dg;
+	background: $scheme-lg;
+}
+
+.icons-main {
+	// margin-left: 160px;
+	// margin-right: 100px;
+	// background: $scheme-dg;
+	// padding: 60px;
+	// margin: 0 auto;
+	// text-align: center;
+
+	background: #748d7d;
+	// padding-top: 60px;
+	// padding-bottom: 60px;
+	padding: 60px;
+	margin: 0 auto;
+	text-align: center;
+	// height: 50%;
+	padding-bottom: 100px;
+
+}
+
+.main-glyph {
+	font-size: 170px;
+	text-align: center;
+	padding-left: 0px;
+	// margin-right: 120px;
+	color: $scheme-gray;
+	// margin-top: 50px;
+}
+.main-glyph {
+// background-color: #e20036;
+	text-align: center;
+	// margin-left: 12px;
+	border-radius: 140px;
+	margin: 0 auto;
+	margin-top: 30px;
+		width: 250px;
+	height: 250px;
+	margin-left: -10px;
+	
+}
+.pink:hover {
+	color: $scheme-lg;
+	border-color: $scheme-lg;
+
+}
+// .main-glyph:hover {
+// 	color: $kpink;
+// 	cursor: pointer;
+// }
+// .icon-full {
+// 	position: relative;
+// }
+
+.icon-full:hover {
+	color: $kpink;
+	// cursor: pointer;
+}
+
+// .overlay {
+// 	// background-color: white;
+// 	background-color: black;
+// 	width: 100%;
+// 	height: 100%;
+// 	margin: 0 auto;
+// 	opacity: .5;
+
+//     // purple overlay
+// 	background-color: #251B5A;;
+// 	opacity: .7;
+
+// 	// teal
+// 	background-color: #00E2AC;
+// 	opacity: 1;
+
+// 	// teal
+// 	background-color: $background-color;
+// 	opacity: 1;
+// }
+
+.icon-title {
+	display: inline-block;
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	color: white;
+	margin-left: 100px;
+}
+
+.about {
+	// margin-left: -130px;
+	height: 250px;
+	width: 250px;
+	font-size: 24px;
+	// margin-top: -180px;
+	// padding-top: 190px;
+
+	border: solid 10px #f2f2f2;
+	border-radius: 130px;
+	font-size: 24px;
+
+	position: relative;
+
+	margin-left: 0px;
+
+}
+.about2 {
+	border-radius: 130px;
+	font-size: 40px;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+// .photography {
+// 	margin-left: -125px;
+// 	height: 230px;
+// 	width: 250px;
+// 	margin-top: -180px;
+// 	padding-top: 190px;
+// }
+
+//photography with circle
+.photography {
+	// margin-left: -125px;
+	height: 250px;
+	width: 250px;
+	// margin-top: -200px;
+	// padding-top: 183px;
+	border: solid 10px #f2f2f2;
+	border-radius: 130px;
+	font-size: 24px;
+
+	position: relative;
+}
+.photography2 {
+	border-radius: 130px;
+	font-size: 40px;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+.design {
+	// margin-left: -215px;
+	// height: 230px;
+	// width: 250px;
+	// margin-top: -40px;
+	// padding-top: 230px;
+
+
+	// margin-left: -185px;
+	height: 250px;
+	width: 250px;
+	// margin-top: -20px;
+	// padding-top: 183px;
+	border: solid 10px #f2f2f2;
+	border-radius: 130px;
+	font-size: 24px;
+
+	position: relative;
+}
+.design2 {
+	border-radius: 130px;
+	font-size: 40px;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+// .glyphicon-pencil {
+// 	margin-left: 10px;
+// }
+
+.photo-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	color: $kpurple;
+	margin: 0 auto;
+}
+
+.photo-subtitle {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.small-glyph {
+	font-size: 28px;
+	text-align: center;
+	padding-left: 5px;
+	margin-right: 10px;
+	color: $kpurple;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	-webkit-transition: left .4s ease-in-out;
+	-moz-transition: left .4s ease-in-out;
+	-ms-transition: left .4s ease-in-out;
+	-o-transition: left .4s ease-in-out;
+	transition: left .4s ease-in-out;
+}
+
+
+
+// .main-icon {
+// 	display: inline-block;
+// }
+
+// .about-icon {
+// 	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-128.png");
+// 	width: 175px;
+// 	height: 175px;
+// 	background-color: none;
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	border-radius: 90px;
+// }
+// .about-icon:hover {
+// 	background-color: white;
+// 	opacity: .4;
+// }
+// .photo-icon {
+// 	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/camera-128.png");
+// 	// background-image: url("https://cdn3.iconfinder.com/data/icons/iconic-1/32/camera-128.png");
+// 	width: 175px;
+// 	height: 175px;
+// 	background-color: none;
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	border-radius: 90px;
+// }
+// .photo-icon:hover {
+// 	background-color: white;
+// 	opacity: .4;
+// }
+// .design-icon {
+// 	background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/pen-128.png");
+// 	width: 175px;
+// 	height: 175px;
+// 	background-color: none;
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	border-radius: 90px;
+// }
+// .design-icon:hover {
+// 	background-color: white;
+// 	opacity: .4;
+// }
