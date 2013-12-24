@@ -7,6 +7,10 @@ $wpink: #c21e65;
 $wwhite: #f5f7f7;
 $wgray: #95969a;
 
+$katie-purp: #7C51C9;
+$katie-purp2: #451593;
+
+
 $wtan: rgb(236, 236, 229);
 
 $scheme-orange: #e2614c;
@@ -36,9 +40,9 @@ $abc: #D5D0E4;
 .header-back {
     border-bottom: 1px solid #e5e5e5;
     // background-color: $wred;
-    background-color: $scheme-lg;
+    background-color: $katie-purp2;
     width: 100%;
-    height: 85px;
+    height: 70px;
 
 }
 
@@ -51,13 +55,15 @@ $abc: #D5D0E4;
 }
 
 .header-back {
-	position: relative;
+	// position: relative;
 	// width: 1280px;
 }
 
 .header-back p {
 	display: inline-block;
 }
+
+
 
 .head-con {
 	width: 1280px;
@@ -71,12 +77,22 @@ $abc: #D5D0E4;
 }
 
 .navigation {
+	// margin: 0 auto;
+	// text-align: center;
+	// background-color: coral;
+	// padding: 15px;
+
 	margin: 0 auto;
 	text-align: center;
-
+	padding: 0px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
-
+.photo-subtitle {
+	padding-top: 10px;
+}
 
 .nav-text {
 	
@@ -101,7 +117,7 @@ display: inline-block;
 }
 
 .main-glyph {
-	font-size: 35px;
+	// font-size: 35px;
 }
 
 i p {
@@ -109,8 +125,9 @@ i p {
 }
 
 .design-container {
-	max-height: 1280px;
-	position: relative;
+	max-height: 15000px;
+	min-height: 1280px;
+	// position: relative;
 	height: 100%;
 	width: 100%;
 	left: 0;
@@ -121,27 +138,28 @@ i p {
 	transition: left .4s ease-in-out;
 
 	border-radius: 25px;
-	box-shadow: 2px 2px 4px $wblack;
+	box-shadow: 0px 0px 2px $wblack;
 	padding: 25px;
 }
 
 .nav-btns {
-	background-color: $wred;
-	margin: 0 auto;
-	text-align: center;
+	// background-color: $wred;
+	// margin: 0 auto;
+	// text-align: center;
 	display: inline-block;
-	// height: 60px;
-	padding: 8px;
-	border: solid 3px $blk-gry;
-	margin-right: 20px;
-	border-radius: 15px;
-	padding-bottom: 3px;
+	// // height: 60px;
+	// padding: 8px;
+	// border: solid 3px $blk-gry;
+	// margin-right: 20px;
+	// border-radius: 15px;
+	// padding-bottom: 3px;
 }
 
-.nav-btns:hover {
-	background-color: $blk-gry;
-	border: solid 1px $hov-red;
-}
+// .nav-btns:hover {
+// 	background-color: $blk-gry;
+// 	border: solid 1px $hov-red;
+// 	color: $wwhite;
+// }
 
 // .nav-ac {
 // 	background-color: $scheme-dg;
@@ -149,15 +167,27 @@ i p {
 
 // }
 
+// .header-back p {
+// 	visibility: hidden;
+// }
+
+// .header-back p:hover {
+// 	visibility: hidden;
+// }
 .nav-btns a {
-	color: $blk-gry;
-}
-.nav-btns a:hover {
 	color: $wwhite;
 }
+// .nav-btns a:hover {
+// 	color: $wwhite;
+// }
+
 
 // .sep-div {
 // 	background-color: $blk-gry;
 // 	width: 2px;
 // 	display: inline-block;
 // }
+
+.about-container {
+	min-height: 100%
+}
